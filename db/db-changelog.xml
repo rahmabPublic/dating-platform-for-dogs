@@ -40,8 +40,9 @@ http://www.liquibase.org/xml/ns/pro ">
                 <constraints nullable="false" primaryKey="true" primaryKeyName="PK_1020_PROFILES"/>
             </column>
             <column name="PRO_BRE_ID" type="int"/>
-            <column name="PRO_HIGHT" type="int"/>
+            <column name="PRO_HEIGHT" type="int"/>
             <column name="PRO_WEIGHT" type="int"/>
+            <column name="PRO_NAME" type="varchar(100)"/>
             <column name="PRO_DESCRIPTION" type="varchar(4000)"/>
             <column name="PRO_IMAGE_URL" type="varchar(100)"/>
         </createTable>
