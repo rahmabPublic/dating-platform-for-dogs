@@ -1,1 +1,1 @@
-liquibase --driver=com.mysql.jdbc.Driver --classpath="c:\Program Files\MySQL\ConnectorJ\mysql-connector-java-5.1.41-bin.jar" --changeLogFile=db-changelog.xml --url="jdbc:mysql://localhost:3306/dating" --username=webuser --password=aSecretPass update
+liquibase --driver=com.mysql.jdbc.Driver --classpath="C:\Program Files (x86)\MySQL\Connector J 8.0\mysql-connector-java-8.0.23.jar" --changeLogFile=db-changelog.xml --url="jdbc:mysql://localhost:3306/dating" --username=webuser --password=aSecretPass update
